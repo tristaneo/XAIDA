@@ -29,7 +29,10 @@ if __name__=="__main__":
 		"""
 		This function reads in fluxnet measurements from the orig dataset into a new dataframe,
 		we include checking for missing data, it returns the naan values and the ecovar variable
-		with the associated timesteps. 
+		with the associated timesteps. The function returns 3 variables;
+		1. the half hourly datasets requested
+		2. a dataset of naans 
+		3. a weekly averaged dataset for visualisation
 		"""
 		print("Reading in "+fluxvar+" obs")
 		flux_hourly = pd.read_csv(filename)
