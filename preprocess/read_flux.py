@@ -7,10 +7,9 @@ if __name__=="__main__":
 	import seaborn as sns
 	############### EDIT ################
 
-	# sites: FR-Pue - med forest site, FR-Fon - paris forest
+	# sites: FR-Pue, FR-Fon, BE-Bra, BE-Vie, IT-Col, CH-Dav
 
-	sites = input("Which SITE do you want to analyise? (FR-Pue, FR-Fon) ")
-
+	sites = input("Which SITE do you want to analyise? (FR-Pue, FR-Fon, BE-Bra, BE-Vie, IT-Col, CH-Dav) ")
 
 	ecovar = input("Which VARIABLE do yuo want to use? (GPP, NEE, Reco) ")
 
